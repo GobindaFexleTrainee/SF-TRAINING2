@@ -203,6 +203,11 @@
             <sortOrder>9</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>Clone</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>12</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>SendEmail</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>10</sortOrder>
@@ -211,11 +216,6 @@
             <actionName>ChangeRecordType</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>11</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Clone</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>12</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>Submit</actionName>
