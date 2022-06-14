@@ -9,9 +9,9 @@ public class StudentQuery {
 		                        Student_Url__c,Subjects_in_which_Back_2nd__c,Subjects_in_which_Back_3rd__c,Subjects_in_which_Back_4th__c,Subjects_in_which_Back__c,
 					Time__c,Total_Pending_Amount__c,X1_st_Sem_Percentage__c,X1st_Sem_Back__c,X2nd_Sem_Back__c,X2nd_Sem_Percentage__c,X3rdSem_Percentage__c,
 					X3rd_Sem_Back__c,X4th_Sem_Back__c,X4th_Sem_Percentage__c,Year_of_Class__c from Student__c order by createdDate DESC LIMIT 5];
-		for(Student__c student : studentList)
-		{
-			system.debug('Chcek Student Data ::: ' + student.id);
-		}
+	for(Student__c student : studentList)
+	{
+	     system.debug('Chcek Student Data ::: ' + student.id);
 	}
+     }
 }
