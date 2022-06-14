@@ -1,9 +1,9 @@
 public class Insert_Student_Details {
      public Insert_Student_Details(){
-	    //Student Information
-		Student__c student = new Student__c();
-		student.Name = 'Ajay Das';
-		student.Roll_Number__c = 2000;
+        //Student Information
+	Student__c student = new Student__c();
+	student.Name = 'Ajay Das';
+	student.Roll_Number__c = 2000;
         student.Email__c = 'mkar1@gmail.com';
         student.Mobile_Number__c = '+918016765279';
         student.Father_Name__c = 'Bheem Das';
@@ -37,14 +37,14 @@ public class Insert_Student_Details {
         student.X4th_Sem_Back__c='No';
         student.Subjects_in_which_Back_4th__c='N/A';    
         //Bank Details
-		student.Bank_Name__c = 'SBI';
+	student.Bank_Name__c = 'SBI';
         student.IFSC_Code__c = 'SBINFC1001';
         student.Account_Number__c ='256398451269';
         student.Phone_Number__c ='+916523879642';
         student.Bank_Phone_Number__c='+915825456512';
         student.City__c='Kolkata';
         student.State__c='WestBengal';
-		insert student;
+	insert student;
         System.Debug('Inserted Record id :'+student);
 	}
 }
