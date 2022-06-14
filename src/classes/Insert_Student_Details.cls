@@ -45,6 +45,6 @@ public class Insert_Student_Details {
         student.City__c='Kolkata';
         student.State__c='WestBengal';
 	insert student;
-        System.Debug('Inserted Record id :'+student);
+        System.Debug('Inserted Record id :'+student.id);
 	}
 }
