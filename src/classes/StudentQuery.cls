@@ -11,7 +11,7 @@ public class StudentQuery {
 					X3rd_Sem_Back__c,X4th_Sem_Back__c,X4th_Sem_Percentage__c,Year_of_Class__c from Student__c order by createdDate DESC LIMIT 5];
 	for(Student__c student : studentList)
 	{
-	     system.debug('Chcek Student Data ::: ' + student.id);
+	        system.debug('Chcek Student Data ::: ' + student.id);
 	}
      }
 }
