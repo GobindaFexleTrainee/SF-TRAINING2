@@ -764,9 +764,9 @@
     <pluralLabel>Students</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
-        <fullName>Register</fullName>
+        <fullName>Registrar</fullName>
         <active>false</active>
-        <label>Register</label>
+        <label>Registrar</label>
         <picklistValues>
             <picklist>Favourite_Subjects__c</picklist>
             <values>
