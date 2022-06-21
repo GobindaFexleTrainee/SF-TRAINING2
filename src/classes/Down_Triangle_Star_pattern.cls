@@ -6,8 +6,8 @@ public class Down_Triangle_Star_pattern {
             string s=' ';
             for(integer j=1;j<=9;j++)
             {
-                if(i>=2 && i<=4)
-                {
+                 if(i>=2 && i<=4)
+                 {
                    if(j>=i+1 && j<=9-i)
                    {
                       b=false;
@@ -17,22 +17,23 @@ public class Down_Triangle_Star_pattern {
                       b=true;
                    }
                 
-                }
-                else
-                {
+                   }
+                 else
+                 {
                    b=true;
-                }
-                if(j>=i && j<=10-i && b)
-                {
+                 }
+                 if(j>=i && j<=10-i && b)
+                 {
                      s=s+'*';
-                }
+                 }
                 else
                 {
                     s=s+'_';
                 }
             } 
             system.debug(s);
-        }   
+       }
+        
     }
 
 }
