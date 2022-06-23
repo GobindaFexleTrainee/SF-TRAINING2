@@ -83,7 +83,6 @@ public class Star_Pattern {
                 if(column>=column_incre_or_decre){
                     display_pattern=display_pattern+'*';
                 }
-       
                 else{
                     display_pattern=display_pattern+'_';
                 }
