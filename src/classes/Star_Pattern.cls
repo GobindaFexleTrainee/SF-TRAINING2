@@ -34,8 +34,7 @@ public class Star_Pattern {
                    {
                       b=true;
                    }
-                
-                   }
+                 }
                  else
                  {
                    b=true;
@@ -44,10 +43,10 @@ public class Star_Pattern {
                  {
                     display_pattern=display_pattern+'*';
                  }
-                else
-                {
+                 else
+                 {
                     display_pattern=display_pattern+'_';
-                }
+                 }
             } 
             system.debug(display_pattern);
        }
