@@ -107,7 +107,7 @@ public class Star_Pattern {
             system.debug(display_pattern);
         }
     }
-    public static void User_Defined_left_triangle_pascal_pattern(integer no_row)
+    public static void left_triangle_pascal_pattern(integer no_row)
     {
         if(math.mod(no_row,2)!=0)
         {
