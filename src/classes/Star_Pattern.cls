@@ -68,7 +68,8 @@ public class Star_Pattern {
         }
     }
     public static void left_triangle_pascal_pattern(){
-        integer column_incre_or_decre=6; 
+        integer column_incre_or_decre=6;
+         string display_patter=' ';  
         for(integer row=1;row<=9;row++){
             if(row<=5)
             {
@@ -77,8 +78,7 @@ public class Star_Pattern {
             else
             {
                 column_incre_or_decre++;
-            }
-            string s=' ';         
+            }       
             for(integer column=1;column<=5;column++){
                 if(column>=column_incre_or_decre){
                     display_pattern=display_pattern+'*';
