@@ -107,4 +107,36 @@ public class Star_Pattern {
             system.debug(display_pattern);
         }
     }
+    public static void User_Defined_left_triangle_pascal_pattern(integer no_row)
+    {
+        if(math.mod(no_row,2)!=0)
+        {
+        integer column_incre_or_decre=no_row+1; 
+            for(integer row=1;row<=no_row*2-1;row++)
+            {
+                string display_pattern=' ';    
+                if(row<=no_row)
+                {
+                    column_incre_or_decre--;
+                } 
+                else
+                {
+                    column_incre_or_decre++;
+                }     
+                for(integer column=1;column<=no_row;column++){
+                    if(column>=column_incre_or_decre){
+                        display_pattern=display_pattern+'*';
+                    }
+                    else{
+                        display_pattern=display_pattern+'_';
+                    }
+                }
+                system.debug(display_pattern);
+            }    
+        }
+        else
+        {
+            system.debug('Enter Odd No');
+        }  
+    }  
 }
