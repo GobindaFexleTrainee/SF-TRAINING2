@@ -107,5 +107,4 @@ public class Star_Pattern {
             system.debug(display_pattern);
         }
     }
-
 }
