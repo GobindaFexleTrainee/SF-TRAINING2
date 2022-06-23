@@ -26,14 +26,14 @@ public class Star_Pattern {
             {
                  if(row>=2 && row<=4)
                  {
-                   if(column>=row+1 && column<=9-row)
-                   {
-                      b=false;
-                   }
-                   else
-                   {
-                      b=true;
-                   }
+                    if(column>=row+1 && column<=9-row)
+                    {
+                        b=false;
+                    }
+                    else
+                    {
+                        b=true;
+                    }
                  }
                  else
                  {
