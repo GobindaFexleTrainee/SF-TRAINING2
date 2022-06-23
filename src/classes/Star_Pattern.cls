@@ -2,7 +2,7 @@ public class Star_Pattern {
     public static void left_triangle_pattern(){ 
         for(integer row=1;row<6;row++)
         {
-             string display_pattern=' ';
+            string display_pattern=' ';
             for(integer column=1;column<6;column++)
             {
                 if(6-row<=column)
