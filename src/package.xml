@@ -5,6 +5,8 @@
         <members>ControlFlowStatements</members>
         <members>DisplayPersonalInfo</members>
         <members>PersonalInformation</members>
+        <members>BasicOfApex</members>
+        <members>YogaClasses</members>
         <name>ApexClass</name>
     </types>
     <version>53.0</version>
