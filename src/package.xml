@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>CallByValueAndReference</members>
+        <members>ControlFlowStatements</members>
+        <members>DisplayPersonalInfo</members>
+        <members>PersonalInformation</members>
         <members>ExpressionsAndOperators</members>
         <members>BasicOfApex</members>
         <members>YogaClasses</members>
